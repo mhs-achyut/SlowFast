@@ -6,6 +6,7 @@ from .build import DATASET_REGISTRY, build_dataset  # noqa
 from .charades import Charades  # noqa
 from .imagenet import Imagenet  # noqa
 from .kinetics import Kinetics  # noqa
+from .mhs_video_data import Mhs_video_data  # noqa
 from .ssv2 import Ssv2  # noqa
 
 try:
