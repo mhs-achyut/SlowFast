@@ -56,8 +56,8 @@ RNG_SEED: 0
 OUTPUT_DIR: .
 
 TENSORBOARD:
-  ENABLE: True
-  LOG_DIR: /home/achbogga/projects/SlowFast/logs
-  CLASS_NAMES_PATH: /home/achbogga/projects/SlowFast/data/Mhs_video_data/classids.json
+  ENABLE: False
+  LOG_DIR: /home/rndvision/projects/SlowFast/logs
+  CLASS_NAMES_PATH: /home/rndvision/projects/SlowFast/data/Mhs_video_data/classids.json
   CONFUSION_MATRIX:
     ENABLE: True
